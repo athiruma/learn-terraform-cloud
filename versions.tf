@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "hashicorp-learn"
+  # cloud {
+  #   organization = "athiruma" // This organazation must be there in Terraform Cloud, else raises an Error
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud" // Don't have this worksapce, creates automatically in Terraform Cloud
+  #   }
+  # }
 
   required_providers {
     aws = {
